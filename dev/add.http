@@ -1,0 +1,15 @@
+POST http://localhost:8080/add HTTP/1.1
+content-type: application/json
+
+{
+    "payload": {
+        "key1": "example",
+        "key2": "key",
+        "key3": "value",
+        "key4": "for",
+        "key5": "testing",
+        "key6": "purposes"
+    },
+    "url": "http://localhost:8080/test",
+    "executeAt": "2023-12-18T19:19:10Z"
+}
